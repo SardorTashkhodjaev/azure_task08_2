@@ -24,7 +24,7 @@ resource "azurerm_container_registry_task" "docker_task" {
     ]
   }
 
-  
+
 }
 
 resource "azurerm_container_registry_task_schedule_run_now" "set_schedule" {
