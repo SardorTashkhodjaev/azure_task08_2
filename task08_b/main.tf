@@ -76,7 +76,7 @@ module "acr" {
 
   image_name = local.docker_name
 
-  dockerfile_path = "task08/application/Dockerfile"
+  dockerfile_path = "Dockerfile"
 
   blob_url  = module.storage.blob_url
   sas_token = module.storage.sas_token
